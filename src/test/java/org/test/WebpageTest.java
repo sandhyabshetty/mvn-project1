@@ -22,7 +22,7 @@ public class WebpageTest {
     @Test
     public void titleValidationTest() {
         String actualTitle = driver.getTitle();
-        String expectedTitle = "my static website";
+        String expectedTitle = "My Static Website";
         Assert.assertEquals(actualTitle, expectedTitle);
         Assert.assertTrue(true, "Title should contain 'static'");
     }
